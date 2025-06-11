@@ -1,5 +1,5 @@
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react'
 import { Calendar, Clock, Trophy, Users, Code } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -69,6 +69,7 @@ const Index = () => {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <Code className="h-8 w-8 text-blue-400" />
+              
               <span className="text-xl font-bold text-white">CodeQuest</span>
             </div>
             <div className="flex space-x-4">
