@@ -1,71 +1,103 @@
-Quiz_Quest
-Welcome to Quiz_Quest, a dynamic and responsive web-based quiz application. This project provides a fun and interactive way for users to test their knowledge on a variety of topics. Built with modern web technologies, it offers a seamless experience with a clean and intuitive user interface.
+# Quiz Quest
 
-🚀 Features
-Interactive Gameplay: Engage in a fast-paced quiz experience.
+[Live Demo](https://quiz-quest-livid.vercel.app/)  
 
-Real-time Feedback: Instantly see if your answers are correct or incorrect.
+Quiz Quest is a modern, responsive quiz application built using **TypeScript**, **Vite**, and **Tailwind CSS**. It features dynamic quiz presentation, intuitive UI, and seamless integration through a lightweight and high-performance front-end setup.
 
-Score Tracking: Keep track of your score throughout the game.
+---
 
-Responsive Design: Enjoy the quiz on any device, from desktop to mobile.
+## Features
 
-Game Over Screen: A clear summary of your performance at the end of the quiz.
+- **Vite-powered build system** for fast development and optimized production builds
+- **TypeScript** for static typing, improved maintainability, and enhanced developer experience
+- **Tailwind CSS** for utility-first styling and responsive design 
+- **Modular structure** using the `src` and `public` directory layout
 
-🛠️ Technologies Used
-TypeScript: The primary language for the application's logic.
+---
 
-React: A powerful JavaScript library for building the user interface.
+## Project Structure
 
-Vite: A fast build tool that provides an excellent developer experience.
+```
+Quiz_Quest/
+├── public/
+│   └── [static assets like index.html]
+├── src/
+│   ├── components/
+│   ├── styles/
+│   └── main.ts
+├── .gitignore
+├── package.json
+├── tsconfig.json
+├── postcss.config.js
+├── tailwind.config.ts
+└── vite.config.ts
+```
 
-Tailwind CSS: A utility-first CSS framework for rapid and responsive styling.
+---
 
-🏃 Getting Started
-To get a local copy up and running, follow these simple steps.
+## Getting Started
 
-Prerequisites
-You will need to have Node.js and npm installed on your machine.
+To run the app locally:
 
-Node.js
-
-Installation
-Clone the repository:
-
-git clone https://github.com/DebarjyaBiswas/Quiz_Quest.git
-
-Navigate to the project directory:
-
+```bash
+# 1. Clone the repository
+git clone <YOUR_GIT_URL>
 cd Quiz_Quest
 
-Install the dependencies:
-
+# 2. Install dependencies
 npm install
 
-Running the App
-To start the development server:
-
+# 3. Start development server
 npm run dev
 
-The application will be running at http://localhost:5173.
+# 4. Open your browser to view: http://localhost:3000 (default port may vary)
+```
 
-✍️ Author
-Debarjya Biswas - GitHub Profile
+To create a production-ready build:
 
-🤝 Contributing
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+```bash
+npm run build
+```
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+---
 
-Fork the Project
+## Tech Stack
 
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
+| Technology       | Purpose                                          |
+|------------------|--------------------------------------------------|
+| **TypeScript**   | Static typing and enhanced code reliability      |
+| **Vite**         | Fast development server and build tooling        |
+| **Tailwind CSS** | Efficient, responsive styling with utility classes |
+| **Node.js & npm** | Core runtime and package management             |
 
-Commit your Changes (git commit -m 'Add some AmazingFeature')
+---
 
-Push to the Branch (git push origin feature/AmazingFeature)
+## Contribution Guidelines
 
-Open a Pull Request
+Contributions are welcome! Whether it's bug fixes, feature improvements, or enhancements to design, I'd love your input.
 
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+1. Fork the repository  
+2. Create a feature branch: `git checkout -b feature/your-feature`  
+3. Make your changes and commit: `git commit -m "Add feature: ..." `  
+4. Push to your branch: `git push origin feature/your-feature`  
+5. Open a Pull Request for review  
+
+---
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+## Acknowledgements
+
+- Built with **Vite**—our efficient build tool  
+- Styled using **Tailwind CSS** for rapid and responsive UI design  
+- Powered by **TypeScript**, ensuring code quality and maintainability  
+
+---
+
+## Live Demo
+
+Check out the working version live at: **https://quiz-quest-livid.vercel.app/**
