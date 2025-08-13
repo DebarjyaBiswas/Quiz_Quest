@@ -43,9 +43,9 @@ const Admin = () => {
   });
 
   const [participants] = useState([
-    { id: 1, name: "Arjun Sharma", email: "arjun@email.com", college: "MIT", registered: "2024-03-01" },
-    { id: 2, name: "Priya Patel", email: "priya@email.com", college: "IISc", registered: "2024-03-02" },
-    { id: 3, name: "Rohit Kumar", email: "rohit@email.com", college: "DTU", registered: "2024-03-03" }
+    { id: 1, name: "Aditya Saha", email: "Aditya@email.com", college: "JISCE", registered: "2025-03-01" },
+    { id: 2, name: "Prince Kumar", email: "Prince@email.com", college: "JISCE", registered: "2025-03-02" },
+    { id: 3, name: "Debarjya Biswas", email: "Debarjya@email.com", college: "JISCE", registered: "2025-03-03" }
   ]);
 
   const handleAddQuestion = () => {
@@ -94,7 +94,7 @@ const Admin = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
-      {/* Admin Header */}
+      {}
       <nav className="bg-black/20 backdrop-blur-lg border-b border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
@@ -106,7 +106,7 @@ const Admin = () => {
               <Badge variant="secondary" className="bg-green-500/20 text-green-400">
                 Admin Panel
               </Badge>
-              <Button variant="outline" className="border-white/20 text-white hover:bg-white/10">
+              <Button variant="outline" className="border-red-400 text-red-400 hover:bg-red-500/10">
                 Logout
               </Button>
             </div>
@@ -136,7 +136,7 @@ const Admin = () => {
               </TabsTrigger>
             </TabsList>
 
-            {/* Dashboard Tab */}
+            {}
             <TabsContent value="dashboard" className="space-y-6">
               <div className="grid md:grid-cols-4 gap-6">
                 <Card className="bg-black/30 backdrop-blur-lg border-white/10">
@@ -232,7 +232,7 @@ const Admin = () => {
               </div>
             </TabsContent>
 
-            {/* Questions Tab */}
+            {}
             <TabsContent value="questions" className="space-y-6">
               <div className="flex justify-between items-center">
                 <h2 className="text-2xl font-bold text-white">Question Management</h2>
@@ -383,7 +383,7 @@ const Admin = () => {
               </Card>
             </TabsContent>
 
-            {/* Participants Tab */}
+            {}
             <TabsContent value="participants" className="space-y-6">
               <div className="flex justify-between items-center">
                 <h2 className="text-2xl font-bold text-white">Participant Management</h2>
@@ -422,7 +422,7 @@ const Admin = () => {
               </Card>
             </TabsContent>
 
-            {/* Settings Tab */}
+            {}
             <TabsContent value="settings" className="space-y-6">
               <h2 className="text-2xl font-bold text-white">Quiz Settings</h2>
 
@@ -473,7 +473,7 @@ const Admin = () => {
                       <Label htmlFor="competition-name">Competition Name</Label>
                       <Input
                         id="competition-name"
-                        defaultValue="CodeQuest 2024"
+                        defaultValue="CodeQuest 2025"
                         className="bg-white/10 border-white/20 text-white"
                       />
                     </div>

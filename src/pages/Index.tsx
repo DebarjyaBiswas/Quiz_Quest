@@ -13,7 +13,7 @@ const Index = () => {
     seconds: 0
   });
 
-  // Competition date - set to 7 days from now for demo
+
   const competitionDate = new Date();
   competitionDate.setDate(competitionDate.getDate() + 7);
 
@@ -63,7 +63,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
-      {/* Navigation */}
+      {}
       <nav className="bg-black/20 backdrop-blur-lg border-b border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
@@ -88,17 +88,17 @@ const Index = () => {
         </div>
       </nav>
 
-      {/* Hero Section */}
+      {}
       <section className="relative py-20 px-4 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-            CodeQuest 2024
+            CodeQuest 2025
           </h1>
           <p className="text-xl md:text-2xl text-slate-300 mb-8 max-w-2xl mx-auto">
             The ultimate coding quiz competition for college students. Test your programming knowledge and compete for glory!
           </p>
 
-          {/* Countdown Timer */}
+          {}
           <div className="bg-black/30 backdrop-blur-lg rounded-2xl p-8 mb-8 border border-white/10">
             <h2 className="text-2xl font-semibold text-white mb-6">Competition Starts In:</h2>
             <div className="grid grid-cols-4 gap-4 max-w-lg mx-auto">
@@ -137,7 +137,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Features Section */}
+      {}
       <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-12">
@@ -159,7 +159,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Competition Details */}
+      {}
       <section className="py-20 px-4 bg-black/20">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">Competition Details</h2>
@@ -167,7 +167,7 @@ const Index = () => {
             <div className="bg-gradient-to-br from-blue-500/20 to-purple-600/20 backdrop-blur-lg rounded-xl p-6 border border-white/10">
               <Calendar className="h-12 w-12 text-blue-400 mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-white mb-2">Date & Time</h3>
-              <p className="text-slate-300">March 15, 2024<br />2:00 PM - 3:30 PM</p>
+              <p className="text-slate-300">March 15, 2025<br />2:00 PM - 3:30 PM</p>
             </div>
             <div className="bg-gradient-to-br from-purple-500/20 to-pink-600/20 backdrop-blur-lg rounded-xl p-6 border border-white/10">
               <Clock className="h-12 w-12 text-purple-400 mx-auto mb-4" />
@@ -183,14 +183,14 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Footer */}
+      {}
       <footer className="bg-black/30 backdrop-blur-lg border-t border-white/10 py-8">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <div className="flex items-center justify-center space-x-2 mb-4">
             <Code className="h-6 w-6 text-blue-400" />
-            <span className="text-lg font-bold text-white">CodeQuest 2024</span>
+            <span className="text-lg font-bold text-white">CodeQuest 2025</span>
           </div>
-          <p className="text-slate-400">© 2024 CodeQuest. All rights reserved.</p>
+          <p className="text-slate-400">© 2025 CodeQuest. All rights reserved.</p>
         </div>
       </footer>
     </div>

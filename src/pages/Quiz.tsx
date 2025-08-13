@@ -13,11 +13,11 @@ const Quiz = () => {
   const { toast } = useToast();
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswers, setSelectedAnswers] = useState<Record<number, string>>({});
-  const [timeLeft, setTimeLeft] = useState(5400); // 90 minutes in seconds
+  const [timeLeft, setTimeLeft] = useState(5400); 
   const [quizStarted, setQuizStarted] = useState(false);
   const [quizCompleted, setQuizCompleted] = useState(false);
 
-  // Sample quiz questions
+  
   const questions = [
     {
       id: 1,
@@ -123,7 +123,7 @@ const Quiz = () => {
         <div className="flex items-center justify-center min-h-[calc(100vh-4rem)] py-12 px-4">
           <Card className="bg-black/30 backdrop-blur-lg border-white/10 max-w-2xl w-full">
             <CardHeader className="text-center">
-              <CardTitle className="text-white text-3xl mb-4">CodeQuest 2024 Quiz</CardTitle>
+              <CardTitle className="text-white text-3xl mb-4">CodeQuest 2025 Quiz</CardTitle>
               <p className="text-slate-300">Welcome to the coding quiz competition!</p>
             </CardHeader>
             <CardContent className="space-y-6">
@@ -216,7 +216,7 @@ const Quiz = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
-      {/* Quiz Header */}
+      
       <div className="bg-black/20 backdrop-blur-lg border-b border-white/10 p-4">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
           <div className="flex items-center space-x-4">
@@ -237,7 +237,7 @@ const Quiz = () => {
 
       <div className="py-8 px-4">
         <div className="max-w-4xl mx-auto">
-          {/* Progress Bar */}
+          
           <div className="mb-8">
             <Progress 
               value={((currentQuestion + 1) / questions.length) * 100} 
@@ -245,7 +245,7 @@ const Quiz = () => {
             />
           </div>
 
-          {/* Question Card */}
+          
           <Card className="bg-black/30 backdrop-blur-lg border-white/10 mb-8">
             <CardHeader>
               <CardTitle className="text-white text-xl">
@@ -276,7 +276,7 @@ const Quiz = () => {
             </CardContent>
           </Card>
 
-          {/* Navigation */}
+          
           <div className="flex justify-between items-center">
             <Button
               onClick={handlePreviousQuestion}
@@ -308,7 +308,7 @@ const Quiz = () => {
             </div>
           </div>
 
-          {/* Question Navigation */}
+          
           <div className="mt-8">
             <Card className="bg-black/30 backdrop-blur-lg border-white/10">
               <CardHeader>

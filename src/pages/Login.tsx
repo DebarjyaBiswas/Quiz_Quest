@@ -20,7 +20,7 @@ const Login = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    // Demo login logic
+    
     if (formData.email === 'admin@codequest.com' && formData.password === 'admin123') {
       toast({
         title: "Login Successful!",
@@ -30,7 +30,7 @@ const Login = () => {
     } else if (formData.email && formData.password) {
       toast({
         title: "Login Successful!",
-        description: "Welcome to CodeQuest 2024",
+        description: "Welcome to CodeQuest 2025",
       });
       navigate('/quiz');
     } else {
@@ -44,7 +44,7 @@ const Login = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
-      {/* Navigation */}
+      
       <nav className="bg-black/20 backdrop-blur-lg border-b border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
@@ -127,7 +127,7 @@ const Login = () => {
                   </Link>
                 </div>
 
-                {/* Demo credentials */}
+                
                 <div className="bg-blue-500/10 border border-blue-400/20 rounded-lg p-4 mt-6">
                   <p className="text-slate-300 text-sm mb-2">Demo Credentials:</p>
                   <p className="text-slate-300 text-xs">Participant: any email + any password</p>

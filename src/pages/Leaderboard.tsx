@@ -130,7 +130,7 @@ const Leaderboard = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
               Leaderboard
             </h1>
-            <p className="text-slate-300 text-lg">CodeQuest 2024 Competition Results</p>
+            <p className="text-slate-300 text-lg">CodeQuest 2025 Competition Results</p>
           </div>
 
           {/* Top 3 Podium */}
